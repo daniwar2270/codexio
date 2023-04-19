@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f5f5f5;
+        }
+
+        .logo {
+            position: relative;
+            width: 88vmin;
+            height: 80vmin;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            border-radius: 10px;
+           
+
+            
+        }
+
+        .rectangle {
+            position: absolute;
+            
+            
+            border-radius: 10px;
+            height: 13%;
+            background-image:linear-gradient(#732366, #32528c);
+            background-attachment:fixed;
+        }
+
+        .rectangle-1, .rectangle-2 {
+            width: 50%;
+            
+            
+        }
+
+        .rectangle-1 {
+            top: 0;
+            left:0;
+            width:33%;
+           
+            
+
+        }
+
+        .rectangle-2 {
+            top:0;
+            right:0;
+            width:33%;
+        }
+
+        .rectangle-3, .rectangle-4 {
+            top:25%;
+            width: 50%;
+            
+            
+        }
+
+        .rectangle-3 {
+            
+            left:0;
+            width:55%;
+           
+            
+
+        }
+
+        .rectangle-4 {
+            
+            right:0;
+            width:33%;
+        }
+
+
+        .rectangle-5, .rectangle-6 {
+            top:50%;
+            width: 50%;
+            
+            
+        }
+
+        .rectangle-5 {
+            
+            left:0;
+            width:33%;
+           
+            
+
+        }
+
+        .rectangle-6 {
+            
+            right:0;
+            width:55%;
+        }
+
+        .rectangle-7, .rectangle-8 {
+            top:75%;
+            width: 50%;
+            
+            
+        }
+
+        .rectangle-7 {
+            
+            left:0;
+            width:33%;
+            
+            
+
+        }
+
+        .rectangle-8 {
+            
+            right:0;
+            width:56%;
+        }
+
+        @media screen and (max-width: 767px) {
+            .logo {
+                width: 50vmin;
+                height: 50vmin;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .logo {
+                width: 35vmin;
+                height: 35vmin;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <div class="rectangle rectangle-1"></div>
+        <div class="rectangle rectangle-2"></div>
+        <div class="rectangle rectangle-3"></div>
+        <div class="rectangle rectangle-4"></div>
+        <div class="rectangle rectangle-5"></div>
+        <div class="rectangle rectangle-6"></div>
+        <div class="rectangle rectangle-7"></div>
+        <div class="rectangle rectangle-8"></div>
+    </div>
+</body>
+</html>
